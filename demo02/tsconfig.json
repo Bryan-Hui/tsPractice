@@ -1,0 +1,28 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    // "exclude": [
+    //     "./src/hello/**/*"
+    // ]
+
+    "compilerOptions": {
+        "target": "ES2015",//被编译成es的版本
+        "module": "ES2015", //使用的模块化的规范
+        // "lib": ["dom","es6"], //项目中用到的库 
+        "outDir": "./dist", // 编译后的文件输出到哪里
+        // "outFile": "./dist/app.js",//将输出后边的代码合并成一个文件
+        "allowJs": false, //是否对js文件进行编译，默认是false
+        "checkJs": false, //检查js
+        "removeComments": true, //删除评论
+        "noEmit": false, //不生成编译后的文件
+        "noEmitOnError": false,  //有错误不生成编译文件
+        "alwaysStrict": false, //编译后的文件 是否被执行严格模式
+        "noImplicitAny": false, //不允许隐式的any
+        "noImplicitThis": false, //不允许隐式的this
+        "strictNullChecks": false, //严格检查null
+
+    },
+
+
+}
